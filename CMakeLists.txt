@@ -23,5 +23,5 @@ target_include_directories( IMGUI
                             PUBLIC ${IMGUI_DIR}/backends
                             )
 
-target_link_libraries(IMGUI Vulkan::Headers)
+target_link_libraries(IMGUI Vulkan::Vulkan)
 target_link_libraries(IMGUI glfw)
